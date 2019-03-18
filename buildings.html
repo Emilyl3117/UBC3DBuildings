@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+
+<html> 
+  
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"> </script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.16.0/dist/aframe-extras.min.js"></script>
+  </head>
+  
+  <body> 
+    
+    <a-scene>
+
+<!--       <a-gltf-model src="https://cdn.glitch.com/f42f56ee-5098-44cd-bef3-2d73ed331fae%2Fwater.glb?1552430521113" position="0 1.8 0" scale="0.5 0.5 0.5 0.5"> </a-gltf-model> -->
+      <a-gltf-model src="https://cdn.glitch.com/f42f56ee-5098-44cd-bef3-2d73ed331fae%2Fubczoom.glb?1552600555356" scale="0.1 0.1 0.1 0.1"> </a-gltf-model>
+      <a-entity camera look-controls wasd-control position="2 5 1" rotation="340 0 0" ></a-entity>
+      
+<a-entity id="pond" position ="0 0 -5">
+      <a-ocean position="0 1.8 0" scale="1.5 1.8 0.2" material="color: #000000" density="20" opacity="0.8" speed="0.1"></a-ocean>
+    </a-entity>
+      
+    </a-scene>
+  </body>
+  
+</html>
+
